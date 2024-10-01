@@ -1,4 +1,4 @@
-I chose my SFXC personal blog to further develop. I still love and enjoy SFX makeip and have the most knowledge in it. I want this site to feel dark but also friendly. 
+I chose my SFX personal blog to further develop. I still love and enjoy SFX makeip and have the most knowledge in it. I want this site to feel dark but also friendly. 
 
 
 I applied the balance concepts we learned this week by focusing on symmetry. I wanted my site to be clean cut and easy to follow. I wanted a darker feel but still wanted the text to be easy to look at, so I went with a light grey for the background with dark black/red text so it has the "dark" vibe while still being easy to read.
