@@ -1,0 +1,182 @@
+<!-- photo gallery, when click on word undr pic takes to youtube tutorial video -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lets get spooky</title>
+<!-- why is logo not center? -->
+        <style>
+                #logo {
+                    text-align: left;
+                    text-decoration: underline;
+                    color: orange
+                }
+
+              nav {
+                    float: right;
+                    padding: 0 8px 8px 8px;
+                }
+                nav a {
+                    text-decoration: none;
+                    padding: 8px;
+                    color: orange;
+                    display: inline-block;
+                }
+                
+                body {
+                    background-color: rgb(49, 48, 48);
+                }
+                h1 {
+                    color: rgb(226, 149, 4);
+                }
+
+                h2, p {
+            color: rgb(81, 62, 70);
+            text-align: center;
+        }
+        h3 {
+            color: rgb(81, 62, 70);
+            text-align: center;
+        }
+
+            .gallery-section {
+                    width: 40%;
+                    margin: 0 auto;
+                    padding: 0 10px 10px 10px;
+            }
+
+            .gallery {
+                width:auto;
+                float: center;
+                margin: 2%; 
+            padding: 2px;
+            background-color: #fea649;
+            box-sizing: border-box;
+            text-align: center;
+            }
+            .special-note {
+                font-style: italic;
+            }
+            .clear {
+                clear: both;
+            }
+
+            .media-section{
+             width: 60%; 
+            height: 350px;
+            float: left;
+            margin: 2%;
+            padding: 15px;
+            background-color: #fea649;
+            box-sizing: border-box;
+            text-align: center;
+                
+            }
+            .audio-section {
+            width: 30%; 
+            height: 350px;
+            float: left;
+            margin: 2%;
+            padding: 15px;
+            background-color: #fea649;
+            box-sizing: border-box;
+            text-align: center;
+            }
+
+            
+        </style>
+</head>
+<body>
+    <!-- links for navigation-->
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="products.html">PRODUCTS</a>
+    <a href="gallery.html">GALLERY</a>
+</nav>
+        <h1>
+            <a id="logo" href="index.html">Lets get spooky</a>
+        </h1>
+<!--now edit logo/nav/h1 in style -->
+        <!-- header video -->
+        <div id="clown balloon">
+            <video autoplay muted loop style="width: 100%; height: auto;">
+                    <source src="Video/clown-balloon.mp4" 
+            type="video/mp4">
+            
+            </video>
+             </div>
+<!-- Gallery!-->
+
+<h1 style="text-align: center; margin-top: 30px;"> Gallery </h1>
+    <div class="gallery-section">
+        <div class="gallery">
+            <img src="Images/chucky.jpg" alt="Girl with knife dressed as chucky with sfx over one eyes" width="70%" height="70%">
+            <h2>Chucky Gore</h2>
+            <p>This look will be sure to <span class="special-note">scare</span>.</p>
+            <a href="https://www.youtube.com/watch?v=gwVcIO1oFcQ" target="_blank">View video tutorial</a>
+        </div>
+
+    <div class="gallery">
+        <img src="images/avatar.jpg" alt="two women with avatar makeup" width="50%" height="50%">
+        <h2>Avatar</h2>
+        <p>This look is more fun than gory, but takes <span class="special-note">time.</span> </p>
+         <a href="https://www.youtube.com/watch?v=sTTSyVaM3H8"  target="_blank"> View video tutorial</a> 
+
+        </div>
+
+    <div class="gallery">
+        <img src="images/vampire.jpg" alt="woman with vampire makeup" width="50%" height="50%">
+        <h2>Vampire</h2>
+        <p>Want to play with blood? This is <span class="special-note">perfect</span>  for you. </p>
+         <a href="https://www.youtube.com/watch?v=aDGxWmM0ZXk" target="_blank"> View video tutorial</a> 
+         </div>
+       
+    <div class="gallery">
+            <img src="images/nun.jpg" alt="woman nun makeup" width="50%" height="50%" >
+            <h2>Nun</h2>
+            <p>This look will score you points at <span class="special-note">any</span> halloween party. </p>
+             <a href="https://www.youtube.com/watch?v=sTTSyVaM3H8"  target="_blank"> View video tutorial</a> 
+    </div>
+<div class="clear"></div>
+    </div>
+
+    <!-- recommended site -->
+    <!-- add song to listen to -->
+    <!-- media -->
+<div class="media-item media-section">
+    <h3>My favorite site for SFX makeup</h3>
+    <iframe src="https://www.mehron.com/special-fx/?srsltid=AfmBOooZiq43H3n_H-ekHqKTPigHZaD-TgqOj8yY7GmR7crdZmCX-lgK" width="100%" height="250"></iframe>
+</div>
+
+</div>
+<div class="media-item audio-section">
+<h3>Listen to get into the spooky mood</h3>
+<img src="Images/moon.jpg" alt="moon banner" style="width: 90% auto; max-height: 195px; margin-bottom: 10px;">
+
+<!--audio-->
+<audio controls loop> 
+    <source src="Audio/spooky-music.mp3"  type="audio/mpeg">
+</audio>
+<p style="font-size: 10px; color: black;">Audio: Cinematic Mystery by <a href="https://www.jamendo.com/start" target="_blank">TOP FLOW</a> - Licensed under <a href="https://creativecommons.org/" target="_blank"> CC attribution </a>
+</div>
+</p>
+
+
+
+
+<div class="clear"></div>
+
+<footer>
+    <p style="color:#fea649;">&copy Madison Van Horn • SFX makeup </p>
+</footer>
+</body>
+
+
+
+
+
+
+
+</html>
