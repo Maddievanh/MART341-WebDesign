@@ -2,7 +2,7 @@
 1. class selector: 
 I used multiple class selectors to apply specific attributes to a group of elements. For example, I needed my three images at the top to align horizontally. They also all needed a border with an opaque color. 
 2. ID selector
-My ID selector is my first paragraph on my page. I used the ID selector because the paragraph stands alone, but I applied different elements to it so it could be differentiated from my "<h3>" element. 
+My ID selector is my first paragraph on my page. I used the ID selector because the paragraph stands alone, but I applied different elements to it so it could be differentiated from my "h3" element. 
 
 3 additional techniques: 
 
