@@ -4,41 +4,144 @@
         <meta charset="UTF-8">
         <title>SFX Makeup</title>
         <meta name="viewport" content="width=device-width, initial-scale1.0">
-            <style>
-                body {background-color: darkgrey}
-                 h2, h3, h4, blockquote {color:brown}
-                <!-- add style to h1, h2, etc -- >
-            </style>
     </head>
-    <body>
-                    <!-- title -->
-        <h1 style="text-align: center;">Get spooky with me</h1>
-       <p style="text-align:center;">
-        <img src="images/Myimage.jpg" style="width: 35%">
-</p>
-                    <!--list one-->
-            <h2 style="text-align:center;">Learn how to do this look!</h2>
-            <hr /> 
-        <p>The biggest part of this look is the products themselves, here are the <em>most</em> important:</p>
-                <ul>
-                    <li>Fake blood</li>
-                    <li>Tissue or toilet paper</li>
-                    <li>Liquid latex</li>
-                    <li>Foundation in your skintone</li>
-                    <li>Black & dark red eyeshadow</li>
-                    </ul>
-                <hr /> 
+  
+         <style>
+                body {background-color: #b8b2b2}
 
-                    <!--list 2-->
-            <h3 style="text-align:center;">Important tools</h3>
+                 h2, h3, h4, blockquote 
+                 {color:brown;
+                  
+
+                }
+
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+       font-size: large;
+    }
+
+    h4, h3 {
+        font-size: 1.5em;
+
+    }
+    .topnav {
+       overflow: hidden;
+       border: 2px solid  rgb(194, 11, 50);
+       background-color: rgb(152, 20, 20);
+     }
+           
+   
+     .topnav a {
+       float: left;
+       display: block;
+       color: black;
+       text-align: center;
+       padding: 12px 12px;
+       text-decoration: none;
+       font-size: 16px;
+     }
+     
+     .topnav a:hover {
+       color: black;
+     }
+     
+     .topnav input[type=text] {
+      
+       float: right;
+       padding: 3px;
+       border: none;
+       margin-top: 8px;
+       margin-right: 16px;
+       font-size: 16px;
+     }
+
+     .container {
+      display: inline-block;
+    }
+    .image, .text {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 20px;
+    }
+     
+    .list-container {
+        width: 95%;
+      background-color: rgb(208, 208, 208);
+      border-radius: 8px;
+      padding: 20px;
+      border-style: double;
+      border-color: rgb(152, 20, 20);
+    }
+    ul.styled-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.styled-list li {
+        display: inline-block;
+      background: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 5px;
+      align-items: center;
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+
+ 
+  
+
+        </style>
+   
+    <body>
+        <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+        <input type="text" placeholder="Search..">
+      </div> 
+                    <!-- title -->
+
+                    <div class="container">
+                        <div class="image">
+                          <img src="images/Myimage.jpg" alt="Image" width="400" height="500" >
+                        </div>
+
+                        <div class="text">
+                            <h1>Have you ever wanted to try SFX makeup? This is the place for you.</h1>
+                            <h2> Learn how to do this look with me. I make it simple, affordable, and easy to follow.</h2>
+                        </div>
+                      </div>
+
+       
+                    <!--list one-->
+            <hr /> 
+
+                
+               
+              <div class="list-container">
+                <div class="ul.styled-list">
+                    <p>The biggest part of this look is the products themselves, here are the <em>most</em> important:</p>
+                    <ul>
+                        <li>Fake blood</li>
+                        <li>Tissue or toilet paper</li>
+                        <li>Liquid latex</li>
+                        <li>Foundation in your skintone</li>
+                        <li>Black & dark red eyeshadow</li>
+                        </ul>
+
+                        <h3 style="text-align: center;">Important tools</h3>
                     <ul>
                         <li>Scissors</li>
                         <li>Blow dryer or fan</li>
                         <li><def title="Makeup brush made for liquids.">Stippling brush</def>  </li>
                         <li><strong>Disposable</strong> sponges</li>
                             </ul>
-                            <hr /> 
-                <h4 style="text-align:center;">Tutorial</h4>
+                            <h4 style="text-align:center;">Tutorial</h4>
                             <p>To begin, apply the <def title="Liquid compound used for casting application."><strong>liquid latex</strong></def> around your mouth. 
                                 Between each application of latex, add a <em>thin</em> layer of <strong>tissue</strong> or toilet paper over your mouth connecting the sides to the liquid latex.
                                 When you apply the tissue then use a <strong>blow dryer</strong> or fan to dry it onto the latex. Repeat this until there is a thick layer of tissue sitting over your mouth. 
@@ -46,6 +149,10 @@
                                 Lastly, grab your <s>blood</s> <strong>fake blood</strong> and add it over your entire mouth, letting it drip freely and using the <strong>sponge</strong> to blend it on your skin. 
                                 </p>
 
+                </div>
+
+              </div>
+                   
                             <hr />
 
                             <p> Thank you for taking the time to read through my tutorial! There are so many fun ways to explore with SFX makeup. Do not be afraid to be creative with it!</p>
