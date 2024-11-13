@@ -137,19 +137,19 @@ h1 {
   
   .image-text-container {
     display: flex;
-    align-items: center; /* Align text vertically center to image */
-    gap: 15px; /* Space between image and text */
+    align-items: center; 
+    gap: 15px; 
     margin: 20px;
   }
 
-  /* Image styling */
+ 
   .image {
-    width: 275px; /* Set image width */
+    width: 275px; 
   }
 
-  /* Text styling */
+
   .text-container {
-    flex: 1; /* Make each item take up equal space */
+    flex: 1; 
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -182,7 +182,7 @@ h1 {
     color: white;
     padding-top: 5px;
     padding-left: 10px;
-    background-color: inherit;
+    background-color:  rgb(133, 94, 153);
     margin: 0;
   }
   
@@ -191,8 +191,6 @@ h1 {
     display: none;
     position: absolute;
     background-color: #801291;
-    min-width: 160px;
-    z-index: 1;
   }
   
   .dropdown-content a {
@@ -213,11 +211,11 @@ h1 {
   }
 
   .topnav input[type=text] {
-      
     float: right;
     padding: 3px;
     border: none;
     margin-top: 8px;
     margin-right: 16px;
+    margin-bottom: 10px;
     font-size: 16px;
   }
