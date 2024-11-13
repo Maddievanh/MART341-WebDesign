@@ -142,17 +142,17 @@ h1 {
     margin: 20px;
   }
 
- 
   .image {
     width: 275px; 
   }
 
 
   .text-container {
+    font-size: .75em;
     flex: 1; 
-    padding: 20px;
+    padding: 50px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 30px;
   }
 
 
@@ -203,7 +203,7 @@ h1 {
   
   }
   .dropdown-content a:hover {
-    background-color:#ffffff;
+    background-color: white;
   }
   
   .dropdown:hover .dropdown-content {
