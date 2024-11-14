@@ -188,8 +188,8 @@ h1 {
   
   
   .dropdown-content {
-    display: none;
     position: absolute;
+    display: none;
     background-color: #801291;
   }
   
