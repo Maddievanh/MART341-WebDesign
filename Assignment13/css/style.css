@@ -76,7 +76,10 @@ h1 {
    
      img {
        border: 20px solid rgba(156, 53, 164, 0.2);
+       width: 100%;
    }
+
+
    .one-column-block {
        display: flex;
    }
@@ -262,6 +265,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+
 
 /* For tablet */
 
