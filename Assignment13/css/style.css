@@ -248,7 +248,13 @@ nav ul li {
 .text-container {
   font-size: .25em;
 }
+
+.image-text-container {
+  flex-direction: column;
+  justify-content: center;
+}
   }
+
 
 /* For tablet */
 
