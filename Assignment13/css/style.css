@@ -255,8 +255,11 @@ nav ul li {
   justify-content: center;
 }
   }
+img.b,
+image,
 img {
-  max-width: 200px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* For tablet */
