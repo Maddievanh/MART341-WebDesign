@@ -225,7 +225,8 @@ body {
 
 }
 .one-column-block,
-.one-column-block div {
+.one-column-block div
+.bottom-section {
   flex-direction: column;
   justify-content: center;
 
