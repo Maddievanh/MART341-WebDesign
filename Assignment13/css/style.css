@@ -246,9 +246,11 @@ nav ul li {
   box-shadow: none;
 }
 
-.text-container
-.image-text-container {
+.text-container {
   font-size: .10em;
+  width: 90%;
+  padding: 10px;
+
 }
 
 .image {
