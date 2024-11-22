@@ -79,6 +79,11 @@ h1 {
        width: 100%;
    }
 
+   img.a {
+    border: 20px solid rgba(156, 53, 164, 0.2);
+    width: 100%;
+   }
+
 
    .one-column-block {
        display: flex;
