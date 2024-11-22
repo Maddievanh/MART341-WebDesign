@@ -256,8 +256,9 @@ nav ul li {
 
 .text-container {
   font-size: .5em;
+  flex-direction: column;
+  justify-content: center;
   max-width: 100%;
-  height: auto;
 }
 
 .image-text-container {
