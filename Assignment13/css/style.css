@@ -250,11 +250,11 @@ nav ul li {
   font-size: .15em;
 }
 
-.image-text-container {
-  flex-direction: column;
-  justify-content: center;
+.image {
+max-width: 200px;
 }
-  }
+}
+  
 
 
 /* For tablet */
