@@ -263,6 +263,7 @@ nav ul li {
 .image-text-container {
   flex-direction: column;
   justify-content: center;
+  max-width: 100%;
 }
   
 
