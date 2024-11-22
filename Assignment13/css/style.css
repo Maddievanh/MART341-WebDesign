@@ -255,7 +255,9 @@ nav ul li {
   justify-content: center;
 }
   }
-
+img {
+  max-width: min-content;
+}
 
 /* For tablet */
 
