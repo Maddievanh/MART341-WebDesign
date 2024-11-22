@@ -32,7 +32,7 @@ h1 {
    h4 {
     color: #333;
     font-family:  sans-serif ;
-    font-size: 90%;
+    font-size: .85em;
    }
    p {
     font-family: sans-serif;
@@ -264,14 +264,17 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
 }
-  }
+  
 
 img {
   max-width: 100%;
   height: auto;
 }
 
-
+h4 {
+  font-size: .5em;
+}
+  }
 
 
 /* For tablet */
