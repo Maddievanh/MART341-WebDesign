@@ -250,8 +250,14 @@ nav ul li {
   font-size: .10em;
   width: 90%;
   padding: 10px;
+  flex-direction: column;
+  justify-content: center;
 }
-
+ 
+.image-text-container {
+  flex-direction: column;
+  justify-content: center;
+}
 .image {
 max-width: 200px;
 }
