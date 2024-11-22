@@ -250,7 +250,7 @@ nav ul li {
   font-size: .10em;
   width: 90%;
   padding: 10px;
-  display: block;
+  display: inline;
 }
 
 .image {
