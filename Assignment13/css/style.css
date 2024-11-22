@@ -246,8 +246,9 @@ nav ul li {
   box-shadow: none;
 }
 
-.text-container {
-  font-size: .15em;
+.text-container
+.image-text-container {
+  font-size: .10em;
 }
 
 .image {
