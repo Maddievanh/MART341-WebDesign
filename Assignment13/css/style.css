@@ -151,17 +151,17 @@ h1 {
     align-items: center;
     grid-template-columns: 1fr 2fr; 
     column-gap: 10px; 
-    margin: 5px 5px 5px 5px;
+
 }
 img.e {
   max-width: 100%;
   height: auto;
   display: block; 
-  border: 20px solid rgba(156, 53, 164, 0.2);
+  border: none;
 }
 
 .text {
-  font-size: 16px; 
+  font-size: 15px; 
   line-height: 1.5; 
   text-align: left; 
   word-wrap: break-word; 
@@ -169,7 +169,7 @@ img.e {
 
 
 .clear {
-  clear: both; /* Ensures the following content doesn't overlap with the floated elements above */
+  clear: both; 
 }
 
   .navbar {
