@@ -301,9 +301,13 @@ nav ul li {
    height: 100%;
    flex-direction: column-reverse;
   }
-
-
+.container {
+  margin: 40px 0;
+   height: 100%;
+   flex-direction: column-reverse;
   }
+}
+
 /* For tablet */
 
 @media (max-width: 480px) {
