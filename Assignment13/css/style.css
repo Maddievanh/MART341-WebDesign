@@ -81,6 +81,7 @@ h1 {
    }
 
    img.a {
+    width: 100%;
     border: 20px solid rgba(156, 53, 164, 0.2);
 
    }
@@ -155,7 +156,6 @@ h1 {
 img.e {
   max-width: 100%;
   height: auto;
-  border: none;
   display: block; 
   border: 20px solid rgba(156, 53, 164, 0.2);
 }
