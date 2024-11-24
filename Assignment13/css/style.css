@@ -157,7 +157,8 @@ img.e {
   max-width: 100%;
   height: auto;
   display: block; 
-  border: none;
+  margin: 5px 5px 5px 5px;
+  border: 20px solid rgba(156, 53, 164, 0.2);
 }
 
 .text {
