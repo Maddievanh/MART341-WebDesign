@@ -53,8 +53,8 @@ h4 {
   
   .base-timer__label {
     position: absolute;
-    width: 200px; /* Use this to change the size of the time text inside the timer circle, e.g. '1:30' (Keep width and height the same) */
-    height: 200px; /* Use this to change the size of the time text inside the timer circle, e.g. '1:30' (Keep width and height the same) */
+    width: 200px; 
+    height: 200px; 
     top: 0;
     display: flex;
     align-items: center;
@@ -67,7 +67,7 @@ h4 {
   button {
     min-width: 5em;
     height: 1.7em;
-    font-family: 'Arial', sans-serif;
+    font-family: "Pakisans";
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -105,5 +105,29 @@ h4 {
     border-radius: 30px;
     margin: 8px;
     text-transform: uppercase;
+
+  }
+
+
+  @media (max-width: 768px) {
+    .timer-section {
+      flex-direction: column; 
+      align-items: flex-start;
+    }
+
+    #timer1, #timer2, #timer3 {
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      padding: 15px; 
+    }
+
+    button {
+      flex-direction: column; 
+      align-items: flex-start;
+    }
+  }
+
+  @media (max-width: 480px) {
 
   }
