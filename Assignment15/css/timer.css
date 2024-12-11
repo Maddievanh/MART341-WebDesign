@@ -110,22 +110,27 @@ h4 {
 
 
   @media (max-width: 768px) {
-    .timer-section {
-      flex-direction: column; 
-      align-items: flex-start;
-    }
+  h4 {
+    font-size: 0.9em;
+  }
+  .base-timer
+  .base-timer__label {
+    flex-direction: column;
+    justify-content: center; 
+    padding: 15px; 
+  }
 
-    #timer1, #timer2, #timer3 {
-      display: flex;
-      flex-direction: column; 
-      justify-content: center; 
-      padding: 15px; 
-    }
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-    button {
-      flex-direction: column; 
-      align-items: flex-start;
-    }
+  .start-button, .stop-button {
+    flex-direction: column;
+    justify-content: center; 
+    padding: 15px; 
+  }
   }
 
   @media (max-width: 480px) {
