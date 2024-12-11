@@ -109,15 +109,25 @@ h4 {
   }
 
 
+
+
+
+
+
+
   @media (max-width: 768px) {
   h4 {
     font-size: 0.9em;
   }
+
+  #timer1, #timer2, #timer3 {
+
+  }
+
   .base-timer
   .base-timer__label {
-    flex-direction: column;
+    font-size: 1.2em;
     justify-content: center; 
-    padding: 15px; 
   }
 
   button {
@@ -126,10 +136,13 @@ h4 {
     margin-bottom: 10px;
   }
 
+
   .start-button, .stop-button {
     flex-direction: column;
     justify-content: center; 
     padding: 15px; 
+    font-size: 0.9em;
+    font-display: ;
   }
   }
 
