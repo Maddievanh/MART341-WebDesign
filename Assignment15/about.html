@@ -11,33 +11,18 @@
     <link rel="stylesheet" type="text/css" href="css/timer.css">
   
 </head>
-<body>
+<body> 
   
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid" style="background-color:rgb(133, 94, 153);">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="recipes.html">Recipes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-      </nav>
+  <div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="recipes.html">Recipes</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</br>
       <div class="banner">ABOUT ME</div>
 
     </br> 
@@ -84,7 +69,16 @@
             <p><small>&copy; Maddies Recipes</small></p>
           </footer>
 
-          
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
       
   <script src="js/bootstrap.bundle.js"></script>
   <!-- Link to main JS-->

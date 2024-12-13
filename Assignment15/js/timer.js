@@ -10,7 +10,7 @@ const ALERT_THRESHOLD = 5; // Time left in seconds when the appearence changes t
 
 // Define the color codes you'd like to use and thresholds for the timer below
 const COLOR_CODES = {
-  info: { color: "green" }, // Default color, let's call it "green"
+  info: { color: "purple" }, // Default color, let's call it "purple"
   warning: { color: "orange", threshold: WARNING_THRESHOLD }, // Warning color and threshold codes, called "orange" and "WARNING_THRESHOLD"
   alert: { color: "red", threshold: ALERT_THRESHOLD } // Alert color and threshold codes
 };
@@ -24,7 +24,7 @@ function initializeTimer(timerId, timeLimit) { // timerID refers to the ID of th
   let timePassed = 0; // Tracks how much time has passed, starts at 0.
   let timeLeft = timeLimit; // Tracks remaining time
   let timerInterval = null; // Stores the interval ID that lets the timer perform actions at certain intervals. We're using it to stop the timer when we use clearInterval(timerInterval).
-  let remainingPathColor = COLOR_CODES.info.color; // Tells what start color to start with, in this case the 'info:' color, "green", that we set above.
+  let remainingPathColor = COLOR_CODES.info.color; // Tells what start color to start with, in this case the 'info:' color, "purple", that we set above.
 
   // Finds the specific timer container from the HTML; e.g., timer1, timer2, timer3
   const timerElement = document.getElementById(timerId);
